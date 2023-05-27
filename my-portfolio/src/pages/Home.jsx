@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import Me from "../assets/me.png";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -9,11 +10,20 @@ const Home = () => {
     <div className="home">
       <div className="about">
         <h2> Hi, I'm Ahmad Akel</h2>
+        <div>
+          <img src={Me}></img>
+        </div>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a href="https://www.linkedin.com/in/ahmadakel/" target="_blank">
+            <LinkedInIcon />
+          </a>
+          <a href="mailto:ahmad.oudai1999@gmail.com" target="_blank">
+            <EmailIcon />
+          </a>
+          <a href="https://github.com/Ahmad-Akel" target="_blank">
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">

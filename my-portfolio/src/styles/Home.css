@@ -2,7 +2,7 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #3e497a;
+  color: #484849;
 }
 
 .about {
@@ -13,13 +13,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  background-color: #484849;
   color: #f0f0f0;
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
+  font-size: 40px;
   color: #e9d35b;
   height: 50px;
 }
@@ -29,7 +29,7 @@
   font-size: 30px;
 }
 .prompt svg {
-  font-size: 60px;
+  font-size: 40px;
   margin: 5px;
   color: white;
 }
