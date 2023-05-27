@@ -4,6 +4,7 @@ import Projects from "./pages/Projects";
 import Experiences from "./pages/Experiences";
 import Navbar from "./components/Navbar";
 import "./styles/Navbar.css";
+import "./styles/App.css";
 function App() {
   return (
     <div className="App">
