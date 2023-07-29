@@ -1,7 +1,7 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import Me from "../assets/me.png";
 import "../styles/Home.css";
 
@@ -10,8 +10,8 @@ const Home = () => {
     <div className="home">
       <div className="about">
         <h2> Hi, I'm Ahmad Akel</h2>
-        <div>
-          <img src={Me}></img>
+        <div className="imageContainer">
+          <img src={Me} style={{ height: "250px" }}></img>
         </div>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
@@ -22,11 +22,11 @@ const Home = () => {
             <EmailIcon />
           </a>
           <a href="https://github.com/Ahmad-Akel" target="_blank">
-            <GithubIcon />
+            <GitHubIcon />
           </a>
         </div>
       </div>
-      <div className="skills">
+      <div className="skills" style={{ backgroundColor: "white" }}>
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">

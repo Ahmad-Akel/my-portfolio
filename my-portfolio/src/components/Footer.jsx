@@ -1,9 +1,9 @@
 import React from "react";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import LanguageIcon from "@material-ui/icons/Language";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import LanguageIcon from "@mui/icons-material/Language";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 import "../styles/Footer.css";
 

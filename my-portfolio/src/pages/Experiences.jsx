@@ -4,8 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+import SchoolIcon from "@mui/icons-material/School";
+import AddHomeWorkIcon from "@mui/icons-material/AddHomeWork";
 
 const Experiences = () => {
   return (
@@ -40,7 +40,7 @@ const Experiences = () => {
           className="vertical-timeline-element--work"
           date="2019 - 2020"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<AddHomeWorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Internship Frontend - VOATT
@@ -57,7 +57,7 @@ const Experiences = () => {
           className="vertical-timeline-element--work"
           date="2021 - 2022"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<AddHomeWorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Junior Frontend - Advantech
@@ -72,7 +72,7 @@ const Experiences = () => {
           className="vertical-timeline-element--work"
           date="2022 - present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<AddHomeWorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Frontedn Developer - mgm-tp

@@ -1,4 +1,4 @@
-import Proj1 from "../assets/project1.jpg";
+import Proj1 from "../assets/angry_birds.jpg";
 import Proj2 from "../assets/project2.jpg";
 import Proj3 from "../assets/project3.jpg";
 import Proj4 from "../assets/project4.jpg";
@@ -7,10 +7,10 @@ import Proj6 from "../assets/project6.jpg";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm",
+    name: "Angry Birds",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
-    tags: ["Html", "Css"],
+    skills: "C#,Unity",
+    tags: ["C#", "Unity"],
   },
   {
     name: "Ecommerce Website",

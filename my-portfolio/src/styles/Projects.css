@@ -15,8 +15,8 @@
   font-weight: bolder;
 }
 .projects .title {
-  font-family: "Lucida Console";
-  color: yellow;
+  font-family: "sans-serif";
+  color: greenyellow;
 }
 .projectList {
   width: 70vw;
